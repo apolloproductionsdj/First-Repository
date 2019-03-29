@@ -1,4 +1,4 @@
 
   def index
-  @quote = Quote.order("RANDOM"()).first
+  @quote = Quote.order("RANDOM()").first
   end
